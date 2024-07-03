@@ -31,6 +31,9 @@ const links = [
 const handler =( )=>{
   router.push('/login')
 }
+if (pathName.includes('/dashboard')){
+  return <div className='nav bg-green-400 px-3 py-4'>Dashboard navbar</div>
+}
     return (
         <nav className="flex justify-between mx-28 bg-red-500 px-4 py-6">
         <h6>logo</h6>
