@@ -1,9 +1,12 @@
+import Link from 'next/link';
 import React from 'react';
 
 const AboutPage = () => {
     return (
         <div>
-            hello from about page
+           
+            <Link href={'/about/history'}>history</Link>
+            <Link href={'/about/mission'}>Mission</Link>
         </div>
     );
 };

@@ -23,6 +23,10 @@ const links = [
     title: "contact",
     href: "/contact",
   },
+  {
+    title: "blogs",
+    href: "/blogs"
+  }
 ];
 const handler =( )=>{
   router.push('/login')
