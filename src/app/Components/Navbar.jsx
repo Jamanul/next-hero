@@ -26,6 +26,10 @@ const links = [
   {
     title: "blogs",
     href: "/blogs"
+  },
+  {
+    title: "categories",
+    href: "/categories"
   }
 ];
 const handler =( )=>{
