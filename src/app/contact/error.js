@@ -1,12 +1,13 @@
+"use client"
 import React from 'react';
 
-const ContactPage = () => {
+const error = () => {
     console.log(name)
     return (
         <div>
-            this is contact
+            special error for conatct
         </div>
     );
 };
 
-export default ContactPage;
+export default error;
