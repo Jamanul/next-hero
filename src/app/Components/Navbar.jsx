@@ -30,6 +30,10 @@ const links = [
   {
     title: "categories",
     href: "/categories"
+  },
+  {
+    title: "dashboard",
+    href: "/dashboard"
   }
 ];
 const handler =( )=>{
